@@ -10,6 +10,7 @@ Dataset condensation addresses the problem of data burden by learning a small sy
 ![image](figs/high_res.png)
 # Visualization of Distilled Images
 ![image](figs/visualization.png)
+For more visualization results, please refer to the website of DANCE [Click Here](https://hansong-zhang.github.io/DANCE/).
 ## Getting Started
 1. Change the data paths and results paths in arguments/reproduce_xxxx.py
 2. Perform the pre-training process
@@ -32,13 +33,6 @@ If you find our code useful for your research, please cite our paper.
   author={Zhang, Hansong and Li, Shikun and Lin, Fanzhao and Wang, Weiping and Qian, Zhenxing and Ge, Shiming},
   booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
   year={2024}
-}
-
-@inproceedings{zhang2024m3d,
-      title={M3D: Dataset Condensation by Minimizing Maximum Mean Discrepancy}, 
-      author={Hansong Zhang and Shikun Li and Pengju Wang and Dan Zeng and Shiming Ge},
-      year={2024},
-      booktitle={The 38th Annual AAAI Conference on Artificial Intelligence (AAAI)}
 }
 ```
 
