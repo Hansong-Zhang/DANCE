@@ -319,7 +319,7 @@ def condense(args, logger, device='cuda'):
 
     # it_test = [n_iter // 10, n_iter // 5, n_iter // 2, n_iter]
 
-    logger(f"\n COLD: Start condensing for {n_iter} iteration")
+    logger(f"\n DANCE: Start condensing for {n_iter} iteration")
 
 
     best_convnet = -1
