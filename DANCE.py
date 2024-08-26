@@ -422,7 +422,7 @@ def condense(args, logger, device='cuda'):
                 best_convnet = conv_result
                 save_best = 1
 
-                logger("->->->->->->->->->->->->-> Best Result using: {:.1f}".format(best_convnet))
+                logger("->->->->->->->->->->->->-> Best Result: {:.1f}".format(best_convnet))
             
 
             # It is okay to clamp data to [0, 1] at here.
